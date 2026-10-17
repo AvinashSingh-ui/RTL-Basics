@@ -5,10 +5,7 @@ import {userEvent} from '@testing-library/user-event';
 import App from './App.tsx';
 
 describe("App Component test suite",()=>{
-    it("Should render the app with correct initial state",()=>{
-        render(<App />);
-        screen.debug();
-    });
+    
    it("should increase the count on the button",async()=>{
     render(<App/>);
     const initialCount=screen.getByRole('heading',{name:"0"});
