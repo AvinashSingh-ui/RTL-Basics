@@ -1,4 +1,5 @@
 # React + TypeScript + Vite
+![Frontend CI](https://github.com/AvinashSingh-ui/RTL-Basics/actions/workflows/ci.yml/badge.svg)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
